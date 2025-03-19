@@ -27,3 +27,16 @@ public class lab31925{
 			result[row] = sumRow;
 		}
 	}
+
+	public static int diagonalSum(int[][] arry){
+		int count = 0;
+		int sum = 0;
+		for(int row=0; row < arr.length; row++){
+			for(int column=0; column< arr[row].length;column++){
+				if(i==j){
+					sum += arr[row][collumn];
+				}
+			}
+		}
+
+	}
